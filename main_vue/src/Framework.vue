@@ -5,6 +5,7 @@
         <ol>
           <li><a @click="goto('vuecli', '/vuecli')">vuecli</a></li> 
           <li><a @click="goto('creatreactapp', '/creatreactapp')">create-react-app</a></li> 
+          <li><a @click="goto('ejectreact', '/ejectreact')">eject-react</a></li> 
         </ol>
       </nav>
     </header>

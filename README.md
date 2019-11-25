@@ -49,7 +49,7 @@
 > 可添加.env配置端口等等
 4. 修改src/index.js导入生命周期
 
-- ## react_eject
+- ## 四、react_eject
 **子项目  create-react-app版本**
 >与上一个不同，本项目使用eject命令展开了默认配置
 
@@ -67,7 +67,7 @@ headers: {
     },
 ```
 
-- ## vue 
+- ## 五、vue 
 **子项目  vue-cli搭建版本**
 
 1. vue-cli生成后根目录添加vue.config.js文件
@@ -79,4 +79,5 @@ headers: {
 
 ---
 ## 雷点
+1. 运行过程中修改create-react-app子项目，强刷根项目可能会报错缺少生命周期，重启子项目即可
 1. 在create-react-app项目中路劲重写暂时失效
