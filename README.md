@@ -1,29 +1,36 @@
 # 微前端实践
-采用qiankun(https://github.com/umijs/qiankun)
+基于qiankun(https://github.com/umijs/qiankun)
 
-主要细化qiankun demo操作，踩过的坑希望大家少浪费点时间~
+主要细化qiankun example，希望我踩过的坑大家能跳过去，节省时间~
 
 ***根据qiankun更新进度不定时修改完善***
 
 有帮助的话别忘了start()
 
 # 目录介绍
+项目目前编写了vue、react两种实现方式
+
+根项目:main_react/main_vue
+
+子项目:react_/react_eject/vue
+
 五个项目独立存在
 
-请先运行子项目，然后运行父项目
+请先运行子项目，再运行父项目
 
-- ## main_react 
+- ## 一、main_react 
 > 根项目 create-react-app版本
 1. 安装qiankun，`yarn add qiankun  # or npm i qiankun -S`
 > 可选isomorphic-fetch
 2. 修改src/App.js创建qiankun主框架
-- ## main_vue 
+- ## 二、main_vue 
 > 根项目 vue-cli搭建版本
 1. 安装qiankun，`yarn add qiankun  # or npm i qiankun -S`
 > 可选isomorphic-fetch
 2. 修改src/main.js创建qiankun主框架
 
-- ## react_  子项目 create-react-app版本
+- ## 三、react_ 
+**子项目 create-react-app版本**
 >采用react-app-rewired修改webpack相关配置
 1. 安装react-app-rewired 
 
@@ -43,7 +50,7 @@
 4. 修改src/index.js导入生命周期
 
 - ## react_eject
-** 子项目  create-react-app版本**
+**子项目  create-react-app版本**
 >与上一个不同，本项目使用eject命令展开了默认配置
 
 1. 修改src/index.js导入生命周期
@@ -67,4 +74,6 @@ headers: {
 2. 修改src/main.js导入生命周期
 
 # 特殊说明
-注意挂载的节点id，子父不得同名，例：子父结尾react项目，同时挂在到#root
+注意挂载的节点id，子父不得同名
+
+例：子父皆为react项目，同时挂在到#root
