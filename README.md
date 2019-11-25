@@ -5,7 +5,7 @@
 
 ***根据qiankun更新进度不定时修改完善***
 
-有帮助的话别忘了start()
+有帮助的话别忘了start(https://github.com/CHU295/Micro-Frontends-practice)
 
 # 目录介绍
 项目目前编写了vue、react两种实现方式
@@ -74,6 +74,9 @@ headers: {
 2. 修改src/main.js导入生命周期
 
 # 特殊说明
-注意挂载的节点id，子父不得同名
-
+1. 注意挂载的节点id，子父不得同名。
 例：子父皆为react项目，同时挂在到#root
+
+---
+## 雷点
+1. 在create-react-app项目中路劲重写暂时失效
