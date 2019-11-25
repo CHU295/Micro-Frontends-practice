@@ -20,6 +20,7 @@ registerMicroApps([
   { name: 'vuecli', entry: '//localhost:9001', render, activeRule: genActiveRule('/vuecli') },
   { name: 'creatreactapp', entry: '//localhost:9002', render, activeRule: genActiveRule('/creatreactapp') },
   { name: 'ejectreact', entry: '//localhost:9003', render, activeRule: genActiveRule('/ejectreact') },
+  { name: 'reactwebpack', entry: '//localhost:9004', render, activeRule: genActiveRule('/reactwebpack') },
 ]);
 
 start();
