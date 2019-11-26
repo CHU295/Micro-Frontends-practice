@@ -63,8 +63,8 @@ jsonpFunction: `webpackJsonp_${appPackageJson.name}`,
 3. 按需修改config/webpackDevServer.config.js，一般只需添加header允许跨域等等
 ```
 headers: {
-      'Access-Control-Allow-Origin': '*',
-    },
+  'Access-Control-Allow-Origin': '*',
+},
 ```
 
 - ## 五、vue 
@@ -80,4 +80,3 @@ headers: {
 ---
 ## 雷点
 1. 运行过程中修改create-react-app子项目，强刷根项目可能会报错缺少生命周期，重启子项目即可
-1. 在create-react-app项目中路劲重写暂时失效

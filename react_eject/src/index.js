@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './public-path'
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
@@ -10,8 +11,6 @@ function render() {
 
 if (!window.__POWERED_BY_QIANKUN__) {
   render();
-} else {
-  __webpack_public_path__ = window.__INJECTED_PUBLIC_PATH_BY_QIANKUN__;
 }
 
 export async function bootstrap() {
