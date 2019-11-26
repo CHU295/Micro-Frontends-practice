@@ -10,9 +10,9 @@
 # 目录介绍
 项目目前编写了vue、react两种实现方式
 
-根项目:main_react/main_vue
+根项目:main_react / main_vue
 
-子项目:react_/react_eject/vue
+子项目:react_ / react_eject / vue / react_webpack
 
 五个项目独立存在
 
@@ -72,6 +72,10 @@ headers: {
 
 1. vue-cli生成后根目录添加vue.config.js文件
 2. 修改src/main.js导入生命周期
+
+- ## 六、react_webpack
+**子项目  webpack 简易搭建的react项目**
+
 
 # 特殊说明
 1. 注意挂载的节点id，子父不得同名。
