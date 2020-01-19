@@ -5,6 +5,7 @@ module.exports = {
   entry: './index.js',
   devtool: 'source-map',
   devServer: {
+    host: '0.0.0.0',
     port: '9004',
     clientLogLevel: 'warning',
     disableHostCheck: true,
