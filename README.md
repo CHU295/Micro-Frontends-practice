@@ -80,6 +80,7 @@ headers: {
 # 特殊说明
 1. 注意挂载的节点id，子父不得同名。
 例：子父皆为react项目，同时挂在到#root
+2. `__webpack_public_path__` 相关报错是eslint配置，可以忽略或者备注下
 
 ---
 ## 雷点
